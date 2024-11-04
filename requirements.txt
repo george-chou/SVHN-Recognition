@@ -1,0 +1,6 @@
+h5py
+lmdb
+numpy
+pillow
+matplotlib
+protobuf==3.20.3
