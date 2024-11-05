@@ -1,6 +1,5 @@
 # SVHN-Recognition
 [![license](https://img.shields.io/github/license/MuGemSt/SVHN-Recognition.svg)](https://github.com/MuGemSt/SVHN-Recognition/blob/master/LICENSE)
-[![Python application](https://github.com/MuGemSt/SVHN-Recognition/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/MuGemSt/SVHN-Recognition/actions/workflows/python-app.yml)
 [![hf](https://img.shields.io/badge/HuggingFace-SVHN-ffd21e.svg)](https://huggingface.co/spaces/MuGemSt/svhn)
 [![ms](https://img.shields.io/badge/ModelScope-SVHN-624aff.svg)](https://www.modelscope.cn/studios/MuGemSt/svhn)
 
@@ -8,8 +7,8 @@ This project is a PyTorch implementation that uses deep CNN to recognize multi-d
 
 ## Environment
 ```bash
-conda create -n svhn --yes --file conda.txt
-conda activate svhn
+conda create -n py311 python=3.11 -y
+conda activate py311
 pip install -r requirements.txt
 ```
 

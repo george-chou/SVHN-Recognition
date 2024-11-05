@@ -1,3 +1,6 @@
+torch==2.3.1+cu118
+torchvision==0.18.1+cu118
+-f https://mirrors.aliyun.com/pytorch-wheels/cu118
 h5py
 lmdb
 numpy
