@@ -1,4 +1,4 @@
-# SVHN-Recognition
+# svhn_recognition
 [![license](https://img.shields.io/github/license/Genius-Society/svhn_recognition.svg)](https://github.com/Genius-Society/svhn_recognition/blob/master/LICENSE)
 [![hf](https://img.shields.io/badge/HuggingFace-SVHN-ffd21e.svg)](https://huggingface.co/spaces/Genius-Society/svhn)
 [![ms](https://img.shields.io/badge/ModelScope-SVHN-624aff.svg)](https://www.modelscope.cn/studios/Genius-Society/svhn)
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 1. Clone the source code:
 ```bash
 git clone git@github.com:Genius-Society/svhn_recognition.git
-cd SVHN-Recognition
+cd svhn_recognition
 ```
 2. Run `convert_to_lmdb.py`
 3. Run `train.py`
