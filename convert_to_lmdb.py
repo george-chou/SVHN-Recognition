@@ -22,7 +22,7 @@ parser.add_argument(
 )
 
 
-def download_file(url, save_path, backup_url='https://www.modelscope.cn/api/v1/datasets/MuGemSt/svhn/repo?Revision=master&FilePath=data.zip'):
+def download_file(url, save_path, backup_url='https://www.modelscope.cn/api/v1/datasets/Genius-Society/svhn/repo?Revision=master&FilePath=data.zip'):
     try:
         # 发起 GET 请求下载文件
         response = requests.get(url, stream=True)
@@ -271,7 +271,7 @@ if __name__ == '__main__':
 
     if not os.path.exists('./data.zip'):
         download_file(
-            'https://huggingface.co/datasets/MuGemSt/svhn/resolve/main/data.zip',
+            'https://huggingface.co/datasets/Genius-Society/svhn/resolve/main/data.zip',
             'data.zip'
         )
 
