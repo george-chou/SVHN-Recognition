@@ -30,7 +30,7 @@ cd svhn_recognition
 
 本次任务的目标数据集是其中的 Format 1 (Full Numbers: train.tar.gz, test.tar.gz , extra.tar.gz)
 
-其中，train.tar.gz 为训练数据集，test.tar.gz为测试数据集。注：extra.tar.gz是附加数据集，建议不使用。
+其中, train.tar.gz 为训练数据集, test.tar.gz为测试数据集。注: extra.tar.gz是附加数据集, 建议不使用。
 
 在 train.tar.gz 与 test.tar.gz 中，分别包含：<br>
 1) 一些 .png 格式的图片，每张图片包含一个门牌号；<br>
