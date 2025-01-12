@@ -1,7 +1,11 @@
 # svhn_recognition
 [![license](https://img.shields.io/github/license/Genius-Society/svhn_recognition.svg)](https://github.com/Genius-Society/svhn_recognition/blob/master/LICENSE)
-[![hf](https://img.shields.io/badge/HuggingFace-SVHN-ffd21e.svg)](https://huggingface.co/spaces/Genius-Society/svhn)
-[![ms](https://img.shields.io/badge/ModelScope-SVHN-624aff.svg)](https://www.modelscope.cn/studios/Genius-Society/svhn)
+[![hf](https://img.shields.io/badge/huggingface-svhn_dataset-ffd21e.svg)](https://huggingface.co/datasets/Genius-Society/svhn)
+[![hf](https://img.shields.io/badge/huggingface-svhn_model-ffd21e.svg)](https://huggingface.co/Genius-Society/svhn)
+[![hf](https://img.shields.io/badge/huggingface-svhn_space-ffd21e.svg)](https://huggingface.co/spaces/Genius-Society/svhn)
+[![ms](https://img.shields.io/badge/modelscope-svhn_dataset-624aff.svg)](https://www.modelscope.cn/datasets/Genius-Society/svhn)
+[![ms](https://img.shields.io/badge/modelscope-svhn_model-624aff.svg)](https://www.modelscope.cn/models/Genius-Society/svhn)
+[![ms](https://img.shields.io/badge/modelscope-svhn_studio-624aff.svg)](https://www.modelscope.cn/studios/Genius-Society/svhn)
 
 This project is a PyTorch implementation that uses deep CNN to recognize multi-digit numbers using the SVHN dataset derived from Google Street View house numbers, each picture contains a set of numbers from 0 to 9, the model is tested to have 89% accuracy.
 
